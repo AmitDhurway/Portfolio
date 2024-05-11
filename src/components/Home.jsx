@@ -87,7 +87,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='md:w-1/2 md:ml-80 md:mt-20 mt-10 m-5 order-1 '>
+                    <div className='md:w-1/2 md:ml-80 md:mt-20 mt-10 md:mr-50 order-1 '>
                         <img className=" h-[350px] w-[450]" src={logo2} alt="" /></div>
                 </div>
                 <br />
