@@ -33,12 +33,10 @@ function Contact() {
         className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
       >
         <h1 className="text-3xl font-bold mb-4">Contact me</h1>
-        <span>Please fill out the form below to contact me</span>
+        <span>Got any questions or suggetions? Fill out this form to reach out.</span>
         <div className=" flex flex-col items-center justify-center mt-5">
           <form
             onSubmit={handleSubmit(onSubmit)}
-            // action="https://getform.io/f/paoxwgqb"
-            // method="POST"
             className="bg-slate-200 w-96 px-8 py-6 rounded-xl"
           >
             <h1 className="text-xl font-semibold mb-4">Send Your Message</h1>
@@ -50,7 +48,7 @@ function Contact() {
                 id="name"
                 name="name"
                 type="text"
-                placeholder="Enter your fullname"
+                placeholder="Enter your full name"
               />
               {errors.name && <span>This field is required</span>}
             </div>
@@ -74,7 +72,7 @@ function Contact() {
                 id="message"
                 name="message"
                 type="text"
-                placeholder="Enter your Query"
+                placeholder="Enter your message"
               />
               {errors.message && <span>This field is required</span>}
             </div>

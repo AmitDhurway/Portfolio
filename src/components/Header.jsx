@@ -69,7 +69,7 @@ function Header() {
                     <ul className={menu ? 'flex flex-col space-y-4 h-screen items-center justify-center md:hidden' : 'hidden md:hidden cursor-pointer'}>
                         {
                             navItems.map(({ id, text }) => (
-                                <li className='hover:scale-105 duration-200 cursor-pointer font-semibol text-orange-600' key={id}>
+                                <li className='hover:scale-105 duration-200 cursor-pointer font-semibold text-orange-600' key={id}>
                                     <Link 
                                     onClick={() => setMenu(!menu)}
                                     to={text}
