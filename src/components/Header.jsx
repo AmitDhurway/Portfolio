@@ -30,7 +30,7 @@ function Header() {
     ];
     return (
         <>
-            <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md h-20 fixed top-0 right-0 left-0 bg-white">
+            <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 pt-4 shadow-md h-20 fixed top-0 right-0 left-0 bg-white">
                 <div className='flex justify-between items-center'>
                     <div className='flex justify-between space-x-2 cursor-pointer'>
                         <img className='h-12 w-12' src={logo} alt="Logo" />
@@ -66,7 +66,7 @@ function Header() {
 
                 {/* mobile navbar */}
                 <div  className='bg-white'>
-                    <ul className={menu ? 'flex flex-col space-y-4 h-screen items-center justify-center md:hidden' : 'hidden md:hidden cursor-pointer'}>
+                    <ul className={menu ? 'flex flex-col space-y-4 h-screen justify-center md:hidden' : 'hidden md:hidden cursor-pointer'}>
                         {
                             navItems.map(({ id, text }) => (
                                 <li className='hover:scale-105 duration-200 cursor-pointer font-semibol text-orange-600' key={id}>
