@@ -2,34 +2,35 @@ import React, { useState } from 'react';
 import logo from '../assets/logo1.png';
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
+import { Link } from "react-scroll";
 
 function Header() {
     const [menu, setMenu] = useState(false);
-    const navItems=[
+    const navItems = [
         {
-            id:1,
-            text:"Home"
+            id: 1,
+            text: "Home"
         },
         {
-            id:1,
-            text:"About"
+            id: 2,
+            text: "About"
         },
         {
-            id:1,
-            text:"Portfolio"
+            id: 3,
+            text: "Portfolio"
         },
         {
-            id:1,
-            text:"Experiance"
+            id: 4,
+            text: "Experiance"
         },
         {
-            id:1,
-            text:"Conatct"
+            id: 5,
+            text: "Conatct"
         },
     ];
     return (
         <>
-            <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md h-20 fixed top-0 right-0 left-0">
+            <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md h-20 fixed top-0 right-0 left-0 bg-white">
                 <div className='flex justify-between h-20 items-center'>
                     <div className='flex justify-between space-x-2 cursor-pointer'>
                         <img className='h-12 w-12' src={logo} alt="Logo" />
@@ -43,28 +44,44 @@ function Header() {
                     <div>
                         <ul className='hidden md:flex space-x-4'>
                             {
-                                navItems.map(({id, text})=>(
-                                    <li className='hover:scale-105 duration-200 cursor-pointer' key={id}>{text}</li>
+                                navItems.map(({ id, text }) => (
+                                    <li className='hover:scale-105 duration-200 cursor-pointer' key={id}><Link to={text}
+                                    smooth={true}
+                                    duration={500}
+                                    offset={-70}
+                                    activeClass="active"
+                                >{text}
+                                </Link></li>
 
                                 ))
                             }
                         </ul>
                         <div onClick={() => setMenu(!menu)} className='md:hidden'>
-                           {menu ?  <IoCloseSharp />: <AiOutlineMenu />}
+                            {menu ? <IoCloseSharp size={24}/> : <AiOutlineMenu size={24}/>}
 
                         </div>
                     </div>
                 </div>
 
                 {/* mobile navbar */}
-                <div>
-                    <ul className={menu ?  'flex flex-col space-y-4 h-screen items-center justify-center md:hidden' : 'hidden md:hidden cursor-pointer'}>
-                    {
-                                navItems.map(({id, text})=>(
-                                    <li className='hover:scale-105 duration-200 cursor-pointer font-semibold' key={id}>{text}</li>
+                <div className='bg-white'>
+                    <ul className={menu ? 'flex flex-col space-y-4 h-screen items-center justify-center md:hidden' : 'hidden md:hidden cursor-pointer'}>
+                        {
+                            navItems.map(({ id, text }) => (
+                                <li className='hover:scale-105 duration-200 cursor-pointer font-semibold' key={id}>
+                                    <Link 
+                                    onClick={() => setMenu(!menu)}
+                                    to={text}
+                                    smooth={true}
+                                    duration={500}
+                                    offset={-70}
+                                    activeClass="active"
+                                >{text}
+                                </Link>
+                                </li>
 
-                                ))
-                            }
+                            ))
+                        }
                     </ul>
                 </div>
             </div>

@@ -19,7 +19,7 @@ import { ReactTyped } from "react-typed";
 export default function Home() {
     return (
         <>
-            <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 py-20 mt-15 ">
+            <div name="Home" className="max-w-screen-2xl container mx-auto px-4 md:px-20 py-20 mt-15 ">
                 <div className='flex flex-col md:flex-row '>
                     <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
                         <span className='font-semibold'>Welcome To My Portfolio Website</span>
@@ -28,8 +28,8 @@ export default function Home() {
                                 <h1 className='font-bold'>Hello, I'm a </h1>
                                 {/* <span className='text-red-600 font-bold'> Developer</span> */}
                                 <ReactTyped
-                                className='text-red-600 font-bold'
-                                    strings={["Developer","Programmer","Coder"]}
+                                    className='text-red-600 font-bold'
+                                    strings={["Developer", "Programmer", "Coder"]}
                                     typeSpeed={40}
                                     backSpeed={50}
                                     loop={true}
@@ -44,33 +44,33 @@ export default function Home() {
                                 <h1 className='font-bold'>Available on</h1>
                                 <ul className='flex space-x-5'>
                                     <a href="https://github.com/AmitDhurway" target='_blank'>
-                                    <li>
-                                        {""}
-                                        <IoLogoGithub />
-                                    </li>
+                                        <li>
+                                            {""}
+                                            <IoLogoGithub />
+                                        </li>
                                     </a>
                                     <a href="https://www.linkedin.com/in/akdhurway/" target='_blank'>
-                                    <li>
-                                        {""}
-                                        <FaLinkedin />
-                                    </li>
+                                        <li>
+                                            {""}
+                                            <FaLinkedin />
+                                        </li>
                                     </a>
                                     <a href="https://www.instagram.com/_amit.dev" target='_blank'>
-                                    <li>
-                                        {""}
-                                        <AiFillInstagram />
-                                    </li>
+                                        <li>
+                                            {""}
+                                            <AiFillInstagram />
+                                        </li>
                                     </a>
                                     <a href="https://t.me/Amitkumardhurway" target='_blank'>
-                                    <li>
-                                        {""}
-                                        <FaTelegram />
-                                    </li>
+                                        <li>
+                                            {""}
+                                            <FaTelegram />
+                                        </li>
                                     </a>
                                     <a href="http://wa.me/+918839668626" target='_blank'>
                                         <li>
                                             {""}
-                                            <IoLogoWhatsapp/>
+                                            <IoLogoWhatsapp />
                                         </li>
                                     </a>
                                 </ul>
