@@ -67,12 +67,7 @@ export default function Home() {
                                             <FaTelegram />
                                         </li>
                                     </a>
-                                    <a href="http://wa.me/+918839668626" target='_blank'>
-                                        <li>
-                                            {""}
-                                            <IoLogoWhatsapp />
-                                        </li>
-                                    </a>
+                                    
                                 </ul>
                             </div>
                             <div className='space-y-2 text-xl'>
@@ -87,8 +82,8 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='md:w-1/2 md:ml-80 md:mt-20 mt-10 md:mr-50 order-1 '>
-                        <img className=" h-[350px] w-[450]" src={logo2} alt="" /></div>
+                    <div className='md:w-1/2 md:ml-80 md:mt-20 mt-10 order-1 '>
+                        <img className=" md:h-[350px] md:w-[450]" src={logo2} alt="" /></div>
                 </div>
                 <br />
                 <hr />
