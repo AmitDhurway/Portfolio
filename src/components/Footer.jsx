@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-5 items-center flex justify-around">
                 <div className=" flex flex-col items-center justify-center">
                     <div className=" flex flex-col items-center">
-                <p className="font-semibold text-sm">@2024 AMIT KUMAR DHURWAY<sup>TM</sup>.</p>
+                <p className="font-semibold text-sm">&copy;2024 AMIT KUMAR DHURWAY<sup>TM</sup>.</p>
                 <p className="text-sm mt-2">All Rights Reserved.</p>
                 <br />
                 <p className="flex text-xs space-x-4">

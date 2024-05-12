@@ -32,14 +32,15 @@ function Header() {
         <>
             <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 pt-4 shadow-md h-20 fixed top-0 right-0 left-0 bg-white">
                 <div className='flex justify-between items-center'>
-                    <div className='flex justify-between space-x-2 cursor-pointer'>
+                    <a href="/Home.jsx"> <div className='flex justify-between space-x-2 cursor-pointer'>
                         <img className='h-12 w-12' src={logo} alt="Logo" />
                         <div className='flex justify-between'>
-                            <h1 className='font-bold'>Am<span className='font-bold text-yellow-500'>i</span>t
+                            <h1 className='font-bold'>Am<span className='font-bold text-red-600'>i</span>t
                                 <p className='text-sm'>Web Developer</p></h1>
 
                         </div>
                     </div>
+                    </a>
                     {/* desktop navbar */}
                     <div>
                         <ul className='hidden md:flex space-x-4'>
@@ -52,10 +53,13 @@ function Header() {
                                     activeClass="active"
                                 >{text}
                                 </Link></li>
+                                
 
                                 ))
                             }
+                            <a type="submit" className='border border-black text-sm p-1 h-7 text-white bg-orange-600 rounded-full cursor-pointer hover:scale-105 hover:text-black duration200' href="/resume.pdf" target='_blank'>View CV!</a>
                         </ul>
+                        
                         <div onClick={() => setMenu(!menu)} className='md:hidden'>
                             {menu ? <IoCloseSharp size={24}/> : <AiOutlineMenu size={24}/>}
 
@@ -69,7 +73,7 @@ function Header() {
                     <ul className={menu ? 'flex flex-col space-y-4 h-screen items-center justify-center md:hidden' : 'hidden md:hidden cursor-pointer'}>
                         {
                             navItems.map(({ id, text }) => (
-                                <li className='hover:scale-105 duration-200 cursor-pointer font-semibold text-orange-600' key={id}>
+                                <li className='hover:scale-105 duration-200 cursor-pointer font-semibold' key={id}>
                                     <Link 
                                     onClick={() => setMenu(!menu)}
                                     to={text}
@@ -82,6 +86,7 @@ function Header() {
                                 </li>
                                  ))
                         }
+                         <a type="submit" className='border border-black text-sm p-1 h-7 text-white bg-orange-600 rounded-full cursor-pointer hover:scale-105 hover:text-black duration200' href="/resume.pdf" target='_blank'>View CV!</a>
                     </ul>
                 </div>
             </div>
