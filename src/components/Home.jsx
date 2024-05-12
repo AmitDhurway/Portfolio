@@ -39,7 +39,9 @@ export default function Home() {
                             <p className='text-sm md:text-md text-justify'>I'm a MERN stack developer adept at building dynamic web applications, with expertise in MongoDB, Express.js, React.js, and Node.js. I thrive on solving complex challenges, staying updated with the latest technologies, and collaborating effectively to deliver innovative solutions that enhance user experiences.</p>
                         </div>
                         <br />
-                        <div className='flex justify-between items-center flex-col md:flex-row space-y-5 md:space-y-0'>
+                        <a type="submit" className='border border-black text-sm p-1 h-7 text-white bg-orange-600 rounded-full cursor-pointer hover:scale-105 hover:text-black duration200' href="/resume.pdf" target='_blank'>Download CV!</a>
+                        <br />
+                        <div className='flex justify-between items-center pt-8 flex-col md:flex-row space-y-5 md:space-y-0'>
                             <div className='space-y-2 text-xl'>
                                 <h1 className='font-bold'>Available on</h1>
                                 <ul className='flex space-x-5'>

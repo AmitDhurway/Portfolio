@@ -42,6 +42,7 @@ function Header() {
                     </div>
                     </a>
                     {/* desktop navbar */}
+                    
                     <div>
                         <ul className='hidden md:flex space-x-4'>
                             {
@@ -57,8 +58,8 @@ function Header() {
 
                                 ))
                             }
-                            <a type="submit" className='border border-black text-sm p-1 h-7 text-white bg-orange-600 rounded-full cursor-pointer hover:scale-105 hover:text-black duration200' href="/resume.pdf" target='_blank'>View CV!</a>
                         </ul>
+                        
                         
                         <div onClick={() => setMenu(!menu)} className='md:hidden'>
                             {menu ? <IoCloseSharp size={24}/> : <AiOutlineMenu size={24}/>}
@@ -86,7 +87,7 @@ function Header() {
                                 </li>
                                  ))
                         }
-                         <a type="submit" className='border border-black text-sm p-1 h-7 text-white bg-orange-600 rounded-full cursor-pointer hover:scale-105 hover:text-black duration200' href="/resume.pdf" target='_blank'>View CV!</a>
+                         
                     </ul>
                 </div>
             </div>
