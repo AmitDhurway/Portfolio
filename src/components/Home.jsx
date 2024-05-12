@@ -40,7 +40,7 @@ export default function Home() {
                         </div>
                         <br />
                         <a type="submit" className='border border-black text-sm p-1 h-7 text-white bg-orange-600 rounded-full cursor-pointer hover:scale-105 hover:text-black duration200' href="/resume.pdf" target='_blank'>Download CV!</a>
-                        <br />
+                        
                         <div className='flex justify-between items-center pt-8 flex-col md:flex-row space-y-5 md:space-y-0'>
                             <div className='space-y-2 text-xl'>
                                 <h1 className='font-bold'>Available on</h1>
