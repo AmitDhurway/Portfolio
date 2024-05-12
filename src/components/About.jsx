@@ -22,7 +22,7 @@ function About() {
           <li>Master Of Computer Application (MCA)</li>
           <li>SCORE: 7.12 CGPA</li> <br />
 
-          <li className="font-bold">INSTITUTE FOR EXCELLENCE IN HIGHER EDUCATION BHOPAL, BHOPAL (2018-21)</li>
+          <li className="font-bold">INSTITUTE FOR EXCELLENCE IN HIGHER EDUCATION, BHOPAL (2018-21)</li>
           <li>Bachelor Of Science (CS Honours)</li>
           <li>Score: 65.45%</li><br />
 
