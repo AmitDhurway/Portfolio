@@ -30,7 +30,7 @@ function Header() {
     ];
     return (
         <>
-            <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 pt-4 shadow-md h-20 fixed top-0 right-0 left-0 bg-white relative">
+            <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 pt-4 shadow-md h-20 sticky fixed top-0 right-0 left-0 bg-white relative">
                 <div className='flex justify-between items-center'>
                     <a href="/"> <div className='flex justify-between space-x-2 cursor-pointer'>
                         <img className='h-12 w-12' src={logo} alt="Logo" />
