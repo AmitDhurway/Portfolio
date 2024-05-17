@@ -11,7 +11,7 @@ function Experiance() {
     {
       id: 1,
       logo: html,
-      name: "MongoDB",
+      name: "HTML",
     },
     {
       id: 2,
@@ -31,17 +31,17 @@ function Experiance() {
     {
       id: 5,
       logo: express,
-      name: "Express.JS",
+      name: "ExpressJS",
     },
     {
       id: 6,
       logo: react,
-      name: "React.JS",
+      name: "ReactJS",
     },
     {
       id: 7,
       logo: node,
-      name: "Node.JS",
+      name: "NodeJS",
     },
   ];
   return (
@@ -52,7 +52,7 @@ function Experiance() {
       <div>
         <h1 className="text-3xl font-bold mb-5">Experiance</h1>
         <p className="  ">
-        MERN stack intern contributing to full-stack development projects, mastering React.js, Node.js, Express.js, and MongoDB while collaborating in an Agile environment.
+          MERN stack intern contributing to full-stack development projects, mastering React.js, Node.js, Express.js, and MongoDB while collaborating in an Agile environment.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (
