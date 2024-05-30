@@ -6,23 +6,23 @@ import Portfolio from "./components/Portfolio";
 import Experiance from "./components/Experiance";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { Toaster }from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-      <Header/>
-      <Home />
-      <About />
-      <Portfolio />
-      <Experiance />
-      <Contact />
-      <Footer />
+      <div className='bg-black text-white'>
+        <Header />
+        <Home />
+        <About />
+        <Portfolio />
+        <Experiance />
+        <Contact />
+        <Footer />
       </div>
-      <Toaster/>
-      
+      <Toaster />
+
     </>
   )
 }

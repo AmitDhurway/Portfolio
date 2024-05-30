@@ -50,7 +50,7 @@ function Experiance() {
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">Experiance</h1>
+        <h1 className="text-3xl text-blue-600 font-bold mb-5">Experiance</h1>
         <p className="  ">
           MERN stack intern contributing to full-stack development projects, mastering React.js, Node.js, Express.js, and MongoDB while collaborating in an Agile environment.
         </p>
@@ -68,6 +68,10 @@ function Experiance() {
           ))}
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <hr />
     </div>
   );
 }

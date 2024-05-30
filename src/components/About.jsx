@@ -4,10 +4,10 @@ function About() {
   return (
     <div
       name="About"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20"
+      className="max-w-screen-2xl container mx-auto px-4 md:px-20 text-center"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">About</h1>
+        <h1 className="text-3xl  text-blue-600 font-bold">About</h1>
         <p>
           Hello, I'm Amit, a passionate Web developer with a keen eye for MERN
           Stack . With a background in IT, I strive to create impactful and
@@ -42,7 +42,7 @@ function About() {
           <ul></ul>
           <li>Proficiency in HTML, CSS, JavaScript,
             and related front-end technologies.</li>
-            <li>Proficient in utilizing Tailwind CSS for efficient and rapid front-end development.</li>
+          <li>Proficient in utilizing Tailwind CSS for efficient and rapid front-end development.</li>
           <li> Strong grasp of React.js for building
             interactive user interfaces and single
             page applications.</li>
@@ -82,28 +82,13 @@ function About() {
           <li>Implementing interactive features and dynamic behavior using
             JavaScript.</li><br />
         </p>
-
-        {/* <h1 className="text-yellow-600 font-semibold text-xl">
-          Achievements & Awards
-        </h1>
-        <ul>
-          [Award/Recognition], [Organization/Institution], [Year] [Achievement],
-          [Organization/Platform], [Year]
-        </ul>
-        <br />
-        <br />
-        <h1 className="text-yellow-600 font-semibold text-xl">
-          Mission Statement
-        </h1>
-        <p>
-          My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
-          contribute positively to the digital landscape. I am committed to
-          continuous learning and growth, always seeking new challenges and
-          opportunities to expand my horizons.
-        </p> */}
       </div>
+      <br />
+      <br />
+      <br />
+      <hr />
     </div>
+
   );
 }
 
