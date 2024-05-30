@@ -30,7 +30,7 @@ function Contact() {
     <>
       <div
         name="Contact"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
+        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16 text-center"
       >
         <h1 className="text-3xl  text-blue-600 font-bold mb-4">Contact me</h1>
         <span>Got any questions or suggetions? Fill out this form to reach out.</span>

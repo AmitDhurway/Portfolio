@@ -54,7 +54,7 @@ function PortFolio() {
   return (
     <div
       name="Portfolio"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-16"
+      className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-16 text-center"
     >
       <div>
         <h1 className="text-3xl text-blue-600 font-bold mb-5">PortFolio</h1>
