@@ -4,6 +4,7 @@ import crud from "../assets/crud.png";
 import news from "../assets/news.png";
 import ghr from "../assets/ghr.png";
 import github from "../assets/github.png";
+import myntraclone from "../assets/MyntraClone.png";
 
 function PortFolio() {
   const cardItem = [
@@ -16,34 +17,35 @@ function PortFolio() {
     },
     {
       id: 2,
+      logo: myntraclone,
+      name: "Myntra Clone",
+      desc: "Node.js project: Real-time Chat Application facilitating instant messaging, user authentication, and message encryption.",
+      sourceCodeLink: "",
+    },
+    {
+      id: 3,
       logo: crud,
       name: "TODO with EJ",
       desc: "A streamlined to-do web app built with Node.js, Express, and Tailwind CSS for efficient task management and stylish UI.",
       sourceCodeLink: "https://github.com/AmitDhurway/CRUD_WITH_EJS.git",
     },
     {
-      id: 3,
+      id: 4,
       logo: news,
       name: "NEWS Web-App",
       desc: "A dynamic news web app built with JavaScript, utilizing APIs to deliver real-time updates and trending stories.",
       sourceCodeLink: "https://github.com/AmitDhurway/news2.git",
     },
     {
-      id: 4,
+      id: 5,
       logo: ghr,
       name: "gretHR",
       desc: "Building a fully functional Greythr web app using the MERN stack and Tailwind CSS for efficient HR management and streamlined UI design.",
       sourceCodeLink: "https://github.com/AmitDhurway/greytHR.git",
     },
-    // {
-    //   id: 5,
-    //   logo:myntra,
-    //   name: "Myntra Clone",
-    //   desc: "Node.js project: Real-time Chat Application facilitating instant messaging, user authentication, and message encryption.",
-    //   sourceCodeLink: "",
-    // },
+
     {
-      id: 5,
+      id: 6,
       logo: github,
       name: "More Projects",
       desc: "Developed and maintained various projects on GitHub, demonstrating skills in Mern.",
