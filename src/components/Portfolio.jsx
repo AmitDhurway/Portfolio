@@ -4,7 +4,7 @@ import crud from "../assets/crud.png";
 import news from "../assets/news.png";
 import ghr from "../assets/ghr.png";
 import github from "../assets/github.png";
-import myntraclone from "../assets/MyntraClone.png";
+import myntraclone from "../assets/myntraclone.png";
 
 function PortFolio() {
   const cardItem = [
