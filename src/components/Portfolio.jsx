@@ -19,7 +19,7 @@ function PortFolio() {
       id: 2,
       logo: myntraclone,
       name: "Myntra Clone",
-      desc: "Node.js project: Real-time Chat Application facilitating instant messaging, user authentication, and message encryption.",
+      desc: "Building a Myntra clone involves using React for a dynamic UI, Redux for state management, and Node.js for a scalable backend, creating a seamless and robust e-commerce platform.",
       sourceCodeLink: "",
     },
     {
