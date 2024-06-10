@@ -19,7 +19,7 @@ function PortFolio() {
       id: 2,
       logo: myntraclone,
       name: "Myntra Clone",
-      desc: "Building a Myntra clone involves using React for a dynamic UI, Redux for state management, and Node.js for a scalable backend, creating a seamless and robust e-commerce platform.",
+      desc: "Developed a Myntra clone website utilizing React for the frontend, Redux for state management, and Node.js for the backend.",
       sourceCodeLink: "",
     },
     {
