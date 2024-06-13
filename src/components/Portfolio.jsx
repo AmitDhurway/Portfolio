@@ -20,7 +20,7 @@ function PortFolio() {
       logo: myntraclone,
       name: "Myntra Clone",
       desc: "Developed a Myntra clone website utilizing React for the frontend, Redux for state management, and Node.js for the backend.",
-      sourceCodeLink: "",
+      sourceCodeLink: "https://github.com/AmitDhurway/Myntra-Clone",
     },
     {
       id: 3,
